@@ -4,8 +4,8 @@
 
 /**
  * main - Entry point
- * Description - prints if the number is positive,negative or zero
- *Return: Always 0
+ * Description - Prints if random generated number is +tive, zero or -tive 
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
