@@ -4,7 +4,7 @@
  * times_table - prints times table
  * Return:void
  */
-oid times_table(void)
+void times_table(void)
 {
 
 int a = 0;
@@ -23,8 +23,8 @@ while (a <= 9)
 		}
 		else if (rep < 10)
 		{
-			_putchar(' ')
-				_putchar('0' + rep);
+			_putchar(' ');
+			_putchar('0' + rep);
 		}
 		else
 		{
@@ -36,7 +36,7 @@ while (a <= 9)
 			_putchar(',');
 			_putchar(' ');
 		}
-		b++
+		b++;
 	}
 	_putchar('\n');
 	a++;
